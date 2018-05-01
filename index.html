@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Baylee's Webpage</title>
+    <meta charset="utf-8"/>
+  </head>
+  <style>
+
+  /* =====================
+    Table of Contents
+      - Images
+      - General
+      - Grid
+  ===================== */
+
+  /* =====================
+    Images
+  ===================== */
+
+  img.selfie {
+    float: left;
+    width: 120%;
+    height: 100%;
+  }
+
+  img.img-width {
+    width: 100%;
+  }
+
+  /* ====================
+    General styles
+  ==================== */
+
+    html {
+      font-size: 18px;
+      background: radial-gradient(circle at top center, #EAEAEA, #CBC5EA, #73628A);
+    }
+
+    p {
+      font-family: serif;
+    }
+
+    h1 {
+      font-family: sans-serif;
+      font-color: white;
+    }
+
+    h2 {
+      font-family: sans-serif;
+    }
+
+    h3 {
+      font-family: sans-serif;
+    }
+
+    /* =====================
+      Grid
+    =================== */
+
+    header.header {
+      display: grid;
+      grid-template-columns: minmax(50px, 50px) minmax(100px, 350px);
+      grid-gap: 10px;
+      background-color: #1D1E18;
+    }
+    section.intro {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+      background-color: #EAEAEA;
+      text-align: center;
+    }
+    section.data-viz {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+    }
+    section.video {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+    }
+
+  </style>
+  <body>
+    <header class="header">
+      <a href>
+        <img class="selfie" src="assets/img/selfie.jpg" alt="place holder img."/>
+      </a>
+      <h1><font color="white">My Data Story</font></h1>
+    </header>
+    <article>
+      <section class="intro">
+        <h2>Introduction</h2>
+        <p>
+          Over the course of this semester, I was able to learn about online audiences, how to track data, create a comprehensive visual of that data, and how to efficiently explain my research to a broad audience.
+        </p>
+        <p>
+          To start with, I chose a topic that had to do with online data, and specifically the app Snapchat. Snapchat is an app designed to send photos and other communicative media between friends that disappears after it has been viewed. The app stores a lot of data about each individual. It can target ads towards the individual user, and collects a lot more data about each user than most people know.
+        </p>
+        <p>
+          During a 1 week period, I recorded each interaction I had when using the snapchat app. I created an excel sheet to better keep track of everything. On that sheet, I included things such as who recieved the snap, what the snap contained, my mood when I sent it, what time I sent it, and where I took the picture (ie. in public or private.)
+        </p>
+
+      </section>
+      <section class="data-viz">
+        <div>
+          <h2>Data Visualization</h2>
+          <a href="assets/img/Data_Viz_Baylee.svg" target="_blank">
+            <img class="img-width" src="assets/img/Data_Viz_Baylee.png" alt="place holder img"/>
+          </a>
+        </div>
+        <div>
+          <h3>My Reasoning</h3>
+          <p>
+            In order to best display my findings in a visual format, I made use of Snapchat's ghost image to create brand association in the minds of my audience. Each ghost is a container representing a person that I sent a snap to over the course of the week we collected data. In each container, there are colored dots of varying sizes. A dot is a snap sent, the color is the emotion felt, and the larger a dot is, the more intense the emotion was. If a dot has a ring around it, then it was taken in public.
+          </p>
+          <p>
+            I wanted to display the most data without cluttering the image. It was difficult at first to find the best way to display my findings. It all depended on what I wanted to highlight and what kind of correlation I felt needed to be displayed. In the end, the two things that I wanted to stand out the most was how I felt when I sent the most snaps, and who I most often turned to.
+          </p>
+          <p>
+            As shown in the image, I sent the most snaps to Claire, and I most often sent snaps when I was feeling content. Interestingly, there are only 2 positive emotions and 7 negative emotions overall. This seems to point to me seeking social interaction when I am feeling negative emotions.
+          </p>
+        </div>
+      </section>
+
+      <section class="video">
+        <div>
+          <h3>My Research</h3>
+          <p>
+            I chose to continue my research on Snapchat but delve more into what is happening to the data the <b>company</b> recieves. I focused on mostly privacy, and ways in which the promised privacy can be breached.
+          </p>
+          <p>
+            In the video, I start by explaining how Snapchat sends media between phones. I felt it was necessary to explain what a server is and what it does, that way I don't assume my audience knows something before moving on to more difficult topics. There is a difference between a physical server and the cloud, and it is very important to know that difference. It also helps the audience to stop thinking of their snaps as physical things that can be stored, and more as a phantom of information that passes through invisible waves.
+          </p>
+          <p>
+            I threw in a real life example of privacy being breached so that the audience is aware that this isn't ust theory or something that <em>could</em> happen, but is a very real threat.
+          </p>
+          <p>
+            To best display this info, I didn't want to rely on copyrighted materials, so I self-illustrated the principles and made use of screen recordings of my own phone. The speed drawing also allowed me to have a visual on screen that was interesting, but didn't require me to have a visual for every single word spoken. I didn't want to overload my audience with visuals.
+          </p>
+        </div>
+        <div class="video-container">
+          <h2>Snapchat Explained</h2>
+          <iframe width="560" src="https://www.youtube.com/embed/iKZn4Bz5KYE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </section>
+    </article>
+    <footer>
+
+    </footer>
+  </body>
+</html>
